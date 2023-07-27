@@ -13,7 +13,7 @@ ngOnInit(): void {
 }
 
   setTtitle(){
-    this.componentName='AAA';
+    this.componentName='header';
   }
 
 }
