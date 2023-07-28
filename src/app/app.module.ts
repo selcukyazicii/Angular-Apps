@@ -7,6 +7,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AppRoutingModules } from 'src/app-routing.modules';
 import { HomeComponent } from './components/home/home.component';
 import { ContentModule } from './content/content.module';
+import { HighlightDirective } from './directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ContentModule } from './content/content.module';
     AboutComponent,
     ContactComponent,
     HomeComponent,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
