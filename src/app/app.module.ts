@@ -8,7 +8,7 @@ import { AppRoutingModules } from 'src/app-routing.modules';
 import { HomeComponent } from './components/home/home.component';
 import { ContentModule } from './content/content.module';
 import { HighlightDirective } from './directives/highlight.directive';
-
+import {HttpClientModule} from "@angular/common/http";
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +21,8 @@ import { HighlightDirective } from './directives/highlight.directive';
   imports: [
     BrowserModule,
     AppRoutingModules,
-    ContentModule
+    ContentModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
