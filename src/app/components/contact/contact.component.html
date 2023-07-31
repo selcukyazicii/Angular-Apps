@@ -1,13 +1,14 @@
 <p>contact works!</p>
 {{username}} {{lastName}}
-<p>
 
-</p>
 <ul>
-    <td>Adi:</td>
-    <td>Username:</td>
+    <td>Avatar:</td>
     <li *ngFor="let user of user">
-        {{user.name}}
+        {{user.name | avatar}} Kısaltma: {{user.name}}
     </li>
    
-</ul>
+</ul> 
+ 
+<!-- {{today |date:"MM/dd/yy" }}
+<br>
+{{128000000 | currency}} = 128 milyar dolar -->

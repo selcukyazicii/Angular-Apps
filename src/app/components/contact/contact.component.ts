@@ -10,7 +10,7 @@ export class ContactComponent implements OnInit {
 user:any;
 username:string='';
 lastName:string='';
-
+today=Date.now();
 constructor(
   private userService:UserService
 
